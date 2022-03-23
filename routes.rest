@@ -1,12 +1,33 @@
 GET http://localhost:3000/subscribers
 
 ################################
-GET http://localhost:3000/subscribers/1556
+GET http://localhost:3000/subscribers/623aa4a4b4384f56cddb7d40
 
 ################################
 POST http://localhost:3000/subscribers
 Content-Type: application/json
+
 {
-    "name": "Amazing Person",
-    "subscribedToChannel": "Web Dev Simplified"
+    "name": "john ny",
+    "subscribedToChannel": "HELLO "
+}
+#################
+DELETE http://localhost:3000/subscribers/623aa4a4b4384f56cddb7d40
+
+################################
+PATCH http://localhost:3000/subscribers/623aa5dcc7f20143b2e14b43
+Content-Type: application/json
+
+{
+    "name":"panjapol",
+    "subscribedToChannel": "Eat and Travel "
+}
+
+###############################
+POST http://pullapi.app.ruk-com.cloud/
+Content-Type: application/json
+
+{
+    "name": "Homer Simpson",
+    "subscribedToChannel": "Beers "
 }
