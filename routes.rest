@@ -24,7 +24,7 @@ Content-Type: application/json
 }
 
 ###############################
-POST http://pullapi.app.ruk-com.cloud/
+POST http://pullapi.app.ruk-com.cloud/subscribers
 Content-Type: application/json
 
 {
